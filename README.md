@@ -5,7 +5,7 @@ This software package was developed for predicting the precipitation kinetics in
 * Ability to handle sophisticated alloy chemistries by a simple and quantitative growth kinetics equation
 * Visualization of the spatial distribution of precipitates via Voronoi construction 
 ## How to run the code
-* Install Thermo-Calc and TQ-interface
+* Install [Thermo-Calc](https://thermocalc.com/products/thermo-calc/) and [TQ-interface](https://thermocalc.com/products/software-development-kits/)
 * Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
 * Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
 * Hybrid-programming of Fortran and Matlab
