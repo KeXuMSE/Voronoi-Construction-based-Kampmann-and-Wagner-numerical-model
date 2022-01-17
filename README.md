@@ -25,7 +25,7 @@ This software package was developed for predicting the precipitation kinetics in
           stop
       end if
 ```
-* set path
+* Set path
 ```
       if (engEvalString(ep," addpath('C:\Program Files\MATLAB\R2017b\toolbox\mpt\mpt')") /= 0) then
           write(*,*) 'engEvalString failed'
