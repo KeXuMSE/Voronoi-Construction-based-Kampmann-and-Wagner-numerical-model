@@ -10,7 +10,13 @@ This software package was developed for predicting the precipitation kinetics in
 #### Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
 #### Hybrid-programming of Fortran and Matlab
 * Set the Environment Variables in Windows system  
-    Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, C:\Program Files\Matlab\R2010b\bin\win64
+Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2010b\bin\win64”
+* Set the Properties of Fortran in Visual Studio  
+1. Project >> Properties >> Fortran >> General >> Additional Include Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\include”  
+2. Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
+3. Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”  
+4. Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
+
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 ![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
