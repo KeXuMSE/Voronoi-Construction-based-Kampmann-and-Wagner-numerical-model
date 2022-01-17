@@ -7,7 +7,7 @@ This software package was developed for predicting the precipitation kinetics in
 ## How to run the code
 ## Representative results
 * The temporal evolution of (a)&(b) number density, (c)&(d) average radius, and (e)&(f) volume fraction of precipitates in alloys Ni-7.5Al-8.5Cr at. % and Ni-5.2Al-14.2Cr at. % during isothermal ageing
-* The evolution of spatial distribution of precipitates and Voronoi cells within a 100100100 nm3 characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
+* The evolution of spatial distribution of precipitates and Voronoi cells within a 100100100 $nm^3$ characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 
 
 ## License
