@@ -7,7 +7,7 @@ This software package was developed for predicting the precipitation kinetics in
 ## How to run the code
 ## Representative results
 * The temporal evolution of (a)&(b) number density, (c)&(d) average radius, and (e)&(f) volume fraction of precipitates in alloys Ni-7.5Al-8.5Cr at. % and Ni-5.2Al-14.2Cr at. % during isothermal ageing
-<div align=center><img width="5" height="4" src="https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png"/></div>
+![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 ![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig2.png)
 ## License
