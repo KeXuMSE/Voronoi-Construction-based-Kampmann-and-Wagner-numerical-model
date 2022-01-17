@@ -9,3 +9,5 @@ This software package was developed for predicting the precipitation kinetics in
 ## License
 The code is released under the MIT license.
 ## Reference
+The paper is still under review. Code will be posted online after final accept. 
+Please cite our work if getting inspired! Thank you!
