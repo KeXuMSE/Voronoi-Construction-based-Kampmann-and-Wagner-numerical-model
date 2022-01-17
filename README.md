@@ -9,7 +9,7 @@ This software package was developed for predicting the precipitation kinetics in
 #### Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
 #### Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
 #### Hybrid-programming of Fortran and Matlab
-* Set the Environment Variables in Windows system
+* Set the Environment Variables in Windows system  
     Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, C:\Program Files\Matlab\R2010b\bin\win64
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
