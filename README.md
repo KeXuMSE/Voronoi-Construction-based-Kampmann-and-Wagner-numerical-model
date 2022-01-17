@@ -8,6 +8,16 @@ This software package was developed for predicting the precipitation kinetics in
 ### 1. Install [Thermo-Calc](https://thermocalc.com/products/thermo-calc/) and [TQ-interface](https://thermocalc.com/products/software-development-kits/)
 ### 2. Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
 ### 3. Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
+#### 3.1. Configuration of Fortran for TQ-interface in Visual Studio
+* Set up application builds to 64-bit platforms.
+* Project >> Properties >> MIDL >> General >> Target Environment >> Microsoft Windows 64-bit on x64 (/env x64)
+* Project >> Properties >> Fortran >> General >> Additional Include Directories >> C:\Users\Public\Documents\Thermo-Calc\2017b\SDK\TQ
+* Project >> Properties >> Fortran >> Data >> Default Integer KIND >> 8 (/integer_size:64)
+* Project >> Properties >> Fortran >> Data >> Default Real KIND >> 8 (/real_size:64)
+* Project >> Properties >> Linker >> General >> Additional Library Directories >> C:\Users\Public\Documents\Thermo-Calc\2017b\SDK\TQ
+* Project >> Properties >> Linker >> Input >> Additional Dependencies >> tq-win-x64-X.X.XXXXX.lib (license of TQ-interface)
+* Project >> Properties >> Linker >> System >> Sub System >> Console (/SUBSYSTEM:CONSOLE)
+
 ### 4. Hybrid-programming of Fortran and Matlab
 #### 4.1. Set the Environment Variables in Windows system  
 * Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2017b\bin\win64”
