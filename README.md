@@ -14,7 +14,7 @@ This software package was developed for predicting the precipitation kinetics in
 #### Set the Properties of Fortran in Visual Studio  
 * Project >> Properties >> Fortran >> General >> Additional Include Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\include”  
 * Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
-* Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”  
+* Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”   
 * Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
 
 ## Representative results
