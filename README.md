@@ -11,7 +11,7 @@ This software package was developed for predicting the precipitation kinetics in
 ### 4. Hybrid-programming of Fortran and Matlab
 #### 4.1. Set the Environment Variables in Windows system  
 * Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2017b\bin\win64”
-#### 4.2. Set the Properties of Fortran in Visual Studio  
+#### 4.2. Configuration of Fortran for Matlab programming in Visual Studio  
 * Project >> Properties >> Fortran >> General >> Additional Include Directories >> add “C:\ProgramFiles\Matlab\R2017b\extern\include”  
 * Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
 * Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2017b\extern\lib\win64\microsoft”   
