@@ -9,6 +9,7 @@ This software package was developed for predicting the precipitation kinetics in
 #### Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
 #### Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
 #### Hybrid-programming of Fortran and Matlab
+* set the EnvironmentVariables of Windows system
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 ![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
