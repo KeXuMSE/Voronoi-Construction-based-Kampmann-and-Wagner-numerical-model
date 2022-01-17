@@ -17,7 +17,12 @@ This software package was developed for predicting the precipitation kinetics in
 * Project >> Properties >> Linker >> General >> Additional Library Directories >> C:\Users\Public\Documents\Thermo-Calc\2017b\SDK\TQ
 * Project >> Properties >> Linker >> Input >> Additional Dependencies >> tq-win-x64-X.X.XXXXX.lib (license of TQ-interface)
 * Project >> Properties >> Linker >> System >> Sub System >> Console (/SUBSYSTEM:CONSOLE)
-
+ #### 3.2. Initiate the workspace of Thermo-Calc via TQ-interface
+```
+      tcpath=' '
+      tmppath=' '
+      call tqini3(tcpath,tmppath,nwg,nwp,iwsg,iwse)
+```
 ### 4. Hybrid-programming of Fortran and Matlab
 #### 4.1. Set the Environment Variables in Windows system  
 * Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2017b\bin\win64”
