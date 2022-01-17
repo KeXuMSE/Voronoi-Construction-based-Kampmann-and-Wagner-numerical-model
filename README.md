@@ -16,7 +16,16 @@ This software package was developed for predicting the precipitation kinetics in
 * Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
 * Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”   
 * Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
-
+#### Open Matlab and set path in Fortran framework
+* Open Matlab
+'''
+      ep=engOpen('')
+      if (ep == 0) then
+          write(*,*) 'can''t start matlab engine'
+          stop
+      end if
+'''
+* set path
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 ![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
