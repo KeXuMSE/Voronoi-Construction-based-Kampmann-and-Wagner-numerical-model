@@ -5,17 +5,17 @@ This software package was developed for predicting the precipitation kinetics in
 * Ability to handle sophisticated alloy chemistries by a simple and quantitative growth kinetics equation
 * Visualization of the spatial distribution of precipitates via Voronoi construction 
 ## How to run the code
-#### Install [Thermo-Calc](https://thermocalc.com/products/thermo-calc/) and [TQ-interface](https://thermocalc.com/products/software-development-kits/)
-#### Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
-#### Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
-#### Hybrid-programming of Fortran and Matlab
-* Set the Environment Variables in Windows system  
-Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2010b\bin\win64”
-* Set the Properties of Fortran in Visual Studio  
-1. Project >> Properties >> Fortran >> General >> Additional Include Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\include”  
-2. Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
-3. Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”  
-4. Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
+### Install [Thermo-Calc](https://thermocalc.com/products/thermo-calc/) and [TQ-interface](https://thermocalc.com/products/software-development-kits/)
+### Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
+### Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
+### Hybrid-programming of Fortran and Matlab
+#### Set the Environment Variables in Windows system  
+* Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2010b\bin\win64”
+#### Set the Properties of Fortran in Visual Studio  
+* Project >> Properties >> Fortran >> General >> Additional Include Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\include”  
+* Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
+* Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2010b\extern\lib\win64\microsoft”  
+* Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
 
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
