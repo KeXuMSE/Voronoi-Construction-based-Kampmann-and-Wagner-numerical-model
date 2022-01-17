@@ -7,7 +7,7 @@ This software package was developed for predicting the precipitation kinetics in
 ## How to run the code
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
-![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig2.png)
+![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
 ## License
 The code is released under the MIT license.
 ## Reference
