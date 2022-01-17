@@ -9,7 +9,7 @@ This software package was developed for predicting the precipitation kinetics in
 ### 2. Install [Multi-Parametric Toolbox](https://www.mpt3.org/) in Matlab
 ### 3. Build the main framework and extract thermodynamics data from Thermo-Calc in Fortran with Visual Studio
 #### 3.1. Configuration of Fortran for TQ-interface in Visual Studio
-* Set up application builds to 64-bit platforms.
+* Set up application builds as 64-bit platforms.
 * Project >> Properties >> MIDL >> General >> Target Environment >> Microsoft Windows 64-bit on x64 (/env x64)
 * Project >> Properties >> Fortran >> General >> Additional Include Directories >> C:\Users\Public\Documents\Thermo-Calc\2017b\SDK\TQ
 * Project >> Properties >> Fortran >> Data >> Default Integer KIND >> 8 (/integer_size:64)
