@@ -31,7 +31,7 @@ This software package was developed for predicting the precipitation kinetics in
 * Project >> Properties >> Fortran >> Preprocessor >> Preprocess Source File >> choose “Yes”  
 * Project >> Properties >> Linker >> General>> Additional Library Directories >> add “C:\ProgramFiles\Matlab\R2017b\extern\lib\win64\microsoft”   
 * Project >> Properties >> Linker >> Input >> Additional Dependencies >> add “libmx.lib”, “libmat.lib” and “libeng.lib”  
-#### 4.3. Open Matlab and set path in Fortran framework
+#### 4.3. Open Matlab and set path of Multi-Parametric Toolbox in Fortran framework
 * Open Matlab
 ```
       ep=engOpen('')
@@ -40,7 +40,7 @@ This software package was developed for predicting the precipitation kinetics in
           stop
       end if
 ```
-* Set path
+* Set path of Multi-Parametric Toolbox
 ```
       if (engEvalString(ep," addpath('C:\Program Files\MATLAB\R2017b\toolbox\mpt\mpt')") /= 0) then
           write(*,*) 'engEvalString failed'
