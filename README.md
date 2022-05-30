@@ -23,7 +23,9 @@ This software package was developed for predicting the precipitation kinetics in
       tmppath=' '
       call tqini3(tcpath,tmppath,nwg,nwp,iwsg,iwse)
 ```
-### 4. Hybrid-programming of Fortran and Matlab
+#### 3.3. Build the main framework and extract thermodynamics data
+* See the codes in appendix.
+### 4. Build the Voronoi cells through hybrid-programming of Fortran and Matlab
 #### 4.1. Set the Environment Variables in Windows system  
 * Right click on My Computer >> Properties >> Advanced system settings >> Advanced >> Environment Variables >> find PATH in System Variables, double click and add new PATH, “C:\Program Files\Matlab\R2017b\bin\win64”
 #### 4.2. Configuration of Fortran for Matlab programming in Visual Studio  
@@ -47,6 +49,8 @@ This software package was developed for predicting the precipitation kinetics in
           stop
       end if
 ```
+#### 4.4. Build the Voronoi cells 
+* See the codes in appendix.
 ## Representative results
 * The evolution of spatial distribution of precipitates and Voronoi cells within the characteristic cell in alloy Ni-7.5Al-8.5Cr at. % during isothermal ageing
 ![image](https://github.com/KeXuMSE/Voronoi-Construction-based-Kampmann-and-Wagner-numerical-model/blob/main/Fig1.png)
