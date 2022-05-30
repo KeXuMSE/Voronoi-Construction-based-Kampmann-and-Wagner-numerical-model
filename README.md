@@ -57,5 +57,4 @@ This software package was developed for predicting the precipitation kinetics in
 ## License
 The code is released under the MIT license.
 ## Reference
-* [K. Xu, J.D. Liu, S. van der Zwaag, W. Xu, J.G. Li, J. Mater. Sci. Technol. 128 (2022) 98-106.](https://doi.org/10.1016/j.jmst.2022.01.044)
-* Please cite our work if getting inspired! Thank you!
+[K. Xu, J.D. Liu, S. van der Zwaag, W. Xu, J.G. Li, J. Mater. Sci. Technol. 128 (2022) 98-106.](https://doi.org/10.1016/j.jmst.2022.01.044) Please cite our work if getting inspired! Thank you!
